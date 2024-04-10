@@ -1,0 +1,9 @@
+name: 'kubectl'
+description: 'kubectl for github action'
+inputs:
+  args:
+    description: 'Arguments for the CLI command'
+    required: false
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
